@@ -1,11 +1,13 @@
-import logo from './logo.svg';
-import './App.css';
+import logo from "./logo.svg";
+import "bootstrap/dist/css/bootstrap.min.css";
+import "./App.css";
+import WarningSign from "./Components/WarningSign";
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
+        <WarningSign content="Am I working?" />
         <p>
           Edit <code>src/App.js</code> and save to reload.
         </p>
